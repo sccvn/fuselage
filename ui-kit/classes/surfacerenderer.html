@@ -149,13 +149,13 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-has-type-parameter">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Surface<wbr>Renderer&lt;T, B&gt;<span class="tsd-signature-symbol">(</span>allowedLayoutBlockTypes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Permutation</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">B</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">&quot;type&quot;</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">B</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">&quot;type&quot;</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="surfacerenderer.html" class="tsd-signature-type" data-tsd-kind="Class">SurfaceRenderer</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">B</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Surface<wbr>Renderer&lt;T, B&gt;<span class="tsd-signature-symbol">(</span>allowedLayoutBlockTypes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">B</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">&quot;type&quot;</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="surfacerenderer.html" class="tsd-signature-type" data-tsd-kind="Class">SurfaceRenderer</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">B</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L32">rendering/SurfaceRenderer.ts:32</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L32">rendering/SurfaceRenderer.ts:32</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -170,7 +170,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>allowedLayoutBlockTypes: <span class="tsd-signature-type">Permutation</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">B</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">&quot;type&quot;</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">B</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">&quot;type&quot;</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>allowedLayoutBlockTypes: <span class="tsd-signature-type">B</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">&quot;type&quot;</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">[]</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="surfacerenderer.html" class="tsd-signature-type" data-tsd-kind="Class">SurfaceRenderer</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">B</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -183,8 +183,11 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 					<a name="allowedlayoutblocktypes" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> allowed<wbr>Layout<wbr>Block<wbr>Types</h3>
-					<div class="tsd-signature tsd-kind-icon">allowed<wbr>Layout<wbr>Block<wbr>Types<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Permutation</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">B</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">&quot;type&quot;</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">B</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">&quot;type&quot;</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">allowed<wbr>Layout<wbr>Block<wbr>Types<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Set</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">B</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">&quot;type&quot;</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L32">rendering/SurfaceRenderer.ts:32</a></li>
+						</ul>
 					</aside>
 				</section>
 			</section>
@@ -200,7 +203,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L37">rendering/SurfaceRenderer.ts:37</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L38">rendering/SurfaceRenderer.ts:38</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -224,7 +227,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of BlockRenderers.mrkdwn</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L198">rendering/SurfaceRenderer.ts:198</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L191">rendering/SurfaceRenderer.ts:191</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -254,7 +257,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of BlockRenderers.plainText</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L166">rendering/SurfaceRenderer.ts:166</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L159">rendering/SurfaceRenderer.ts:159</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -290,7 +293,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of BlockRenderers.plain_text</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L192">rendering/SurfaceRenderer.ts:192</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L185">rendering/SurfaceRenderer.ts:185</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -319,7 +322,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L40">rendering/SurfaceRenderer.ts:40</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L41">rendering/SurfaceRenderer.ts:41</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -345,7 +348,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L156">rendering/SurfaceRenderer.ts:156</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L149">rendering/SurfaceRenderer.ts:149</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -383,7 +386,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L77">rendering/SurfaceRenderer.ts:77</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L76">rendering/SurfaceRenderer.ts:76</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -421,7 +424,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L60">rendering/SurfaceRenderer.ts:60</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L61">rendering/SurfaceRenderer.ts:61</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -447,7 +450,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L107">rendering/SurfaceRenderer.ts:107</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L104">rendering/SurfaceRenderer.ts:104</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -485,7 +488,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L86">rendering/SurfaceRenderer.ts:86</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L85">rendering/SurfaceRenderer.ts:85</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -511,7 +514,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L116">rendering/SurfaceRenderer.ts:116</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L113">rendering/SurfaceRenderer.ts:113</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -537,7 +540,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L130">rendering/SurfaceRenderer.ts:130</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L125">rendering/SurfaceRenderer.ts:125</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -575,7 +578,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L139">rendering/SurfaceRenderer.ts:139</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L134">rendering/SurfaceRenderer.ts:134</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -601,7 +604,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L52">rendering/SurfaceRenderer.ts:52</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L53">rendering/SurfaceRenderer.ts:53</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -631,7 +634,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of BlockRenderers.text</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/b806337/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L175">rendering/SurfaceRenderer.ts:175</a></li>
+									<li>Defined in <a href="https://github.com/RocketChat/Rocket.Chat.Fuselage/blob/34378b0/packages/ui-kit/src/rendering/SurfaceRenderer.ts#L168">rendering/SurfaceRenderer.ts:168</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
