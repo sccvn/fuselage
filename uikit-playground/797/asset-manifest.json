@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.080b83a2.css",
-    "main.js": "./static/js/main.fcdfb374.js",
+    "main.css": "./static/css/main.461bb325.css",
+    "main.js": "./static/js/main.e15f1003.js",
+    "static/media/rocketchat.svg": "./static/media/rocketchat.aae03ef173216be95215.svg",
+    "static/media/rocketchat.eot": "./static/media/rocketchat.f505831a1e2aec78f06d.eot",
+    "static/media/rocketchat.ttf": "./static/media/rocketchat.76df51bf45124103c4d1.ttf",
+    "static/media/rocketchat.woff": "./static/media/rocketchat.19684262296d1d478e54.woff",
+    "static/media/rocketchat.woff2": "./static/media/rocketchat.cf207c81902ad52dcab9.woff2",
     "index.html": "./index.html",
-    "main.080b83a2.css.map": "./static/css/main.080b83a2.css.map",
-    "main.fcdfb374.js.map": "./static/js/main.fcdfb374.js.map"
+    "main.461bb325.css.map": "./static/css/main.461bb325.css.map",
+    "main.e15f1003.js.map": "./static/js/main.e15f1003.js.map"
   },
   "entrypoints": [
-    "static/css/main.080b83a2.css",
-    "static/js/main.fcdfb374.js"
+    "static/css/main.461bb325.css",
+    "static/js/main.e15f1003.js"
   ]
 }
