@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.af68cbeb.css",
-    "main.js": "./static/js/main.c918563a.js",
+    "main.js": "./static/js/main.3ad1bb2b.js",
     "static/media/rocketchat.svg": "./static/media/rocketchat.b2322725741daed677eb.svg",
     "static/media/rocketchat.eot": "./static/media/rocketchat.6b6538a76a1f9b83327e.eot",
     "static/media/rocketchat.ttf": "./static/media/rocketchat.5c43a737f0b03d75a788.ttf",
@@ -9,10 +9,10 @@
     "static/media/rocketchat.woff2": "./static/media/rocketchat.1e73aec560e624a076ce.woff2",
     "index.html": "./index.html",
     "main.af68cbeb.css.map": "./static/css/main.af68cbeb.css.map",
-    "main.c918563a.js.map": "./static/js/main.c918563a.js.map"
+    "main.3ad1bb2b.js.map": "./static/js/main.3ad1bb2b.js.map"
   },
   "entrypoints": [
     "static/css/main.af68cbeb.css",
-    "static/js/main.c918563a.js"
+    "static/js/main.3ad1bb2b.js"
   ]
 }
