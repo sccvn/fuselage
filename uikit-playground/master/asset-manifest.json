@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.7ac3bd05.css",
-    "main.js": "./static/js/main.109c1309.js",
-    "static/media/rocketchat.svg": "./static/media/rocketchat.b2322725741daed677eb.svg",
-    "static/media/rocketchat.eot": "./static/media/rocketchat.37e272056f9303827d70.eot",
-    "static/media/rocketchat.ttf": "./static/media/rocketchat.0312ddd554416406b885.ttf",
-    "static/media/rocketchat.woff": "./static/media/rocketchat.f894aa1b94513b780052.woff",
-    "static/media/rocketchat.woff2": "./static/media/rocketchat.937f8b96d3642c43ae1b.woff2",
+    "main.css": "./static/css/main.b49a1dd7.css",
+    "main.js": "./static/js/main.f60a899f.js",
+    "static/media/rocketchat.svg": "./static/media/rocketchat.70040707a0dbc587de34.svg",
+    "static/media/rocketchat.eot": "./static/media/rocketchat.080d9bd734094f5365f1.eot",
+    "static/media/rocketchat.ttf": "./static/media/rocketchat.73b1946454073cdd2450.ttf",
+    "static/media/rocketchat.woff": "./static/media/rocketchat.be891d824679a5dfe53b.woff",
+    "static/media/rocketchat.woff2": "./static/media/rocketchat.f63c18a3f7138b7b911b.woff2",
     "index.html": "./index.html",
-    "main.7ac3bd05.css.map": "./static/css/main.7ac3bd05.css.map",
-    "main.109c1309.js.map": "./static/js/main.109c1309.js.map"
+    "main.b49a1dd7.css.map": "./static/css/main.b49a1dd7.css.map",
+    "main.f60a899f.js.map": "./static/js/main.f60a899f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ac3bd05.css",
-    "static/js/main.109c1309.js"
+    "static/css/main.b49a1dd7.css",
+    "static/js/main.f60a899f.js"
   ]
 }
