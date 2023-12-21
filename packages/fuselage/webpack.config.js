@@ -14,9 +14,9 @@ module.exports = (env, { mode = 'production' }) => ({
   resolve: {
     alias: {
       // Resolve react-native to react-native-web
-      'react-native$': require.resolve('react-native-web'),
-      // optional, for lighter svg icons on web
-      'react-native-svg': require.resolve('@tamagui/react-native-svg'),
+      // 'react-native$': require.resolve('react-native-web'),
+      // // optional, for lighter svg icons on web
+      // 'react-native-svg': require.resolve('@tamagui/react-native-svg'),
     },
     extensions: ['.tsx', '.ts', '.jsx', '.js', '.json'],
   },
