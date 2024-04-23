@@ -10,7 +10,7 @@ export const SideBarListItem = forwardRef<HTMLDivElement, SideBarListItemProps>(
     <div
       ref={ref}
       role='listitem'
-      className={['rcx-sidebar-item__list-item', className && className]
+      className={['rcx-sidebar-item__list-item', className]
         .filter(Boolean)
         .join(' ')}
       {...props}

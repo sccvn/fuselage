@@ -10,7 +10,7 @@ export const SideBarMediaController = ({
   ...props
 }: { label?: string } & HTMLAttributes<HTMLDivElement>) => (
   <div
-    className={['rcx-sidebar-v2-media__controller', className && className]
+    className={['rcx-sidebar-v2-media__controller', className]
       .filter(Boolean)
       .join(' ')}
   >

@@ -6,7 +6,7 @@ export const SideBarMediaTitle = ({
   ...props
 }: HTMLAttributes<HTMLDivElement>) => (
   <div
-    className={['rcx-sidebar-v2-media__title', className && className]
+    className={['rcx-sidebar-v2-media__title', className]
       .filter(Boolean)
       .join(' ')}
     {...props}

@@ -15,7 +15,7 @@ export const SideBarItem = ({
     className={[
       'rcx-sidebar-v2-item',
       selected && 'rcx-sidebar-v2-item--selected',
-      className && className,
+      className,
     ]
       .filter(Boolean)
       .join(' ')}

@@ -6,7 +6,7 @@ export const SideBarItemRow = ({
   ...props
 }: HTMLAttributes<HTMLDivElement>) => (
   <div
-    className={['rcx-sidebar-v2-item__row', className && className]
+    className={['rcx-sidebar-v2-item__row', className]
       .filter(Boolean)
       .join(' ')}
     {...props}

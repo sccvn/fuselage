@@ -8,7 +8,7 @@ export const SideBarItemBadge = ({
   ...props
 }: ComponentProps<typeof Badge>) => (
   <Badge
-    className={['rcx-sidebar-v2-item__badge', className && className]
+    className={['rcx-sidebar-v2-item__badge', className]
       .filter(Boolean)
       .join(' ')}
     {...props}

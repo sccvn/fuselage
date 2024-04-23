@@ -6,7 +6,7 @@ export const SideBarItemTimestamp = ({
   ...props
 }: HTMLAttributes<HTMLDivElement>) => (
   <div
-    className={['rcx-sidebar-v2-item__timestamp', className && className]
+    className={['rcx-sidebar-v2-item__timestamp', className]
       .filter(Boolean)
       .join(' ')}
     {...props}

@@ -6,7 +6,7 @@ export const SideBarItemAvatarWrapper = ({
   ...props
 }: HTMLAttributes<HTMLDivElement>) => (
   <div
-    className={['rcx-sidebar-v2-item__avatar', className && className]
+    className={['rcx-sidebar-v2-item__avatar', className]
       .filter(Boolean)
       .join(' ')}
     {...props}

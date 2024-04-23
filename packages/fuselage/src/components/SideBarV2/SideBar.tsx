@@ -11,7 +11,7 @@ export const SideBar = ({
       'rcx-sidebar-v2',
       'rcx-box--animated',
       collapsed && 'rcx-sidebar-v2--collapsed',
-      className && className,
+      className,
     ]
       .filter(Boolean)
       .join(' ')}

@@ -7,10 +7,7 @@ export const SideBarAccordion = ({
   ...props
 }: HTMLAttributes<HTMLDivElement>) => (
   <div
-    className={[
-      'rcx-sidebar-v2-accordion rcx-box--animated',
-      className && className,
-    ]
+    className={['rcx-sidebar-v2-accordion rcx-box--animated', className]
       .filter(Boolean)
       .join(' ')}
     {...props}

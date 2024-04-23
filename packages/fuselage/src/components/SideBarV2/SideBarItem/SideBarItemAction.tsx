@@ -16,10 +16,7 @@ export const SideBarItemAction = ({
   <div
     role='button'
     tabIndex={0}
-    className={[
-      'rcx-sidebar-v2-item rcx-sidebar-v2-item__action',
-      className && className,
-    ]
+    className={['rcx-sidebar-v2-item rcx-sidebar-v2-item__action', className]
       .filter(Boolean)
       .join(' ')}
     {...props}

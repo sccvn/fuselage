@@ -8,7 +8,7 @@ export const SideBarItemIcon = ({
   ...props
 }: ComponentProps<typeof Icon>) => (
   <Icon
-    className={['rcx-sidebar-v2-item__icon', className && className]
+    className={['rcx-sidebar-v2-item__icon', className]
       .filter(Boolean)
       .join(' ')}
     size='x20'
