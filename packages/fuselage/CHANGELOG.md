@@ -1,5 +1,12 @@
 # Change Log
 
+## 0.0.0-dev-20240425224212
+
+### Minor Changes
+
+- ddc6fbe4a: feat(fuselage): `Contextualbar` components size improvements
+- 3e9356198: feat(fuselage): `Sidebar` header size improvements
+
 ## 0.53.4
 
 ### Patch Changes
