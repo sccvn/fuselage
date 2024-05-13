@@ -8,3 +8,4 @@ export * from './SideBarBanner';
 export * from './SideBarFooter';
 export * from './SideBarMedia';
 export * from './SideBarButtonGroup';
+export * from './SideBarSection';

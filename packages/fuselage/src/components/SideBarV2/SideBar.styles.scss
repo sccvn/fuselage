@@ -97,6 +97,17 @@ $sidebar-banner-color-danger: theme(
 
   scrollbar-width: thin;
 
+  &-section {
+    display: flex;
+    align-items: center;
+
+    padding: lengths.padding(8) lengths.padding(16);
+
+    border-bottom: lengths.border-width(default) solid
+      $sidebar-accordion-border-color;
+    gap: lengths.padding(8);
+  }
+
   &-accordion {
     display: flex;
     overflow: hidden;

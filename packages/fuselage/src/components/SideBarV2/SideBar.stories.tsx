@@ -17,8 +17,9 @@ import {
   SideBarMediaTitle,
   SideBarMediaController,
   SideBarListItem,
+  SideBarSection,
 } from '.';
-import { IconButton, Icon } from '../..';
+import { IconButton, Icon, TextInput } from '../..';
 import Box from '../Box';
 import { SideBarFooter } from './SideBarFooter';
 import { Condensed } from './SideBarItem/SideBarItem.stories';
@@ -51,6 +52,13 @@ export const Default: ComponentStory<typeof SideBar> = (props) => (
         onClick={action('click')}
         addon={<Icon name='warning' color='danger' size='x24' />}
       />
+      <SideBarSection>
+        <TextInput
+          addon={<Icon name='magnifier' size='x20' />}
+          placeholder='Search'
+        />
+        <IconButton icon='sort' title='Sort' medium />
+      </SideBarSection>
       <SideBarAccordion>
         <SideBarAccordionItem
           title='Omnichannel'
