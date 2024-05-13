@@ -1,5 +1,25 @@
 # Change Log
 
+## 0.53.7
+
+### Patch Changes
+
+- [#1363](https://github.com/RocketChat/fuselage/pull/1363) [`3bc0e982c`](https://github.com/RocketChat/fuselage/commit/3bc0e982c27748fc1cf2551dffbd1c9112feb141) Thanks [@dougfabris](https://github.com/dougfabris)! - fix(fuselage): MessageToolbar missing opacity on hover
+
+- [#1372](https://github.com/RocketChat/fuselage/pull/1372) [`3b6daeebc`](https://github.com/RocketChat/fuselage/commit/3b6daeebcd0341f784ddbaa95deba26a128f37bc) Thanks [@juliajforesti](https://github.com/juliajforesti)! - fix(fuselage): `Bubble` missing font-family
+
+## 0.53.6
+
+### Patch Changes
+
+- [#1370](https://github.com/RocketChat/fuselage/pull/1370) [`c94bd1cb8`](https://github.com/RocketChat/fuselage/commit/c94bd1cb8bf6586126da852b29594f6eadfc1d78) Thanks [@juliajforesti](https://github.com/juliajforesti)! - fix(fuselage): add `MessageSystem` missing colors
+
+## 0.53.5
+
+### Patch Changes
+
+- [#1356](https://github.com/RocketChat/fuselage/pull/1356) [`fb710526b`](https://github.com/RocketChat/fuselage/commit/fb710526ba7a0adfe9356ae4518da10879f824ef) Thanks [@juliajforesti](https://github.com/juliajforesti)! - fix(fuselage): remove margins from `ButtonGroup` first and last items
+
 ## 0.53.4
 
 ### Patch Changes
