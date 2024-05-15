@@ -14,9 +14,7 @@ export const SideBarMediaController = ({
       .filter(Boolean)
       .join(' ')}
   >
-    <div className='rcx-sidebar-v2-media__controller__label'>
-      {label && label}
-    </div>
+    <div className='rcx-sidebar-v2-media__controller__label'>{label}</div>
     <SideBarButtonGroup small align='end' {...props}>
       {children}
     </SideBarButtonGroup>

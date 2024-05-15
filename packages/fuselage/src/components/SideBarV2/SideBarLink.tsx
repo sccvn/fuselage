@@ -33,7 +33,7 @@ export const SideBarLink = ({
       <Icon name={icon} size='x20' className='rcx-sidebar-v2-item__icon' />
     )}
     <span className='rcx-sidebar-v2-item__title'>{props.children}</span>
-    {badge && badge}
+    {badge}
     {menu &&
       patchChildren(
         <span className='rcx-sidebar-v2-item__menu-wrapper'>{menu}</span>,
